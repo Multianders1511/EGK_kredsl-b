@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "connector")(type "KiCad")(uri "${MYFOOTPRINTDIR}/connector.pretty")(options "")(descr ""))
+)
