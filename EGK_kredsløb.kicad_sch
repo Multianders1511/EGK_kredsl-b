@@ -4532,6 +4532,10 @@
 		(uuid "160dddfd-63fb-43d2-a357-0fdf81c820a3")
 	)
 	(no_connect
+		(at -55.88 35.56)
+		(uuid "3bacf3f5-9095-4ebe-a4f3-7039ffe502da")
+	)
+	(no_connect
 		(at 274.32 149.86)
 		(uuid "3c82620c-35fa-4b54-b568-a4b519f631e9")
 	)
@@ -4564,6 +4568,10 @@
 		(uuid "5ef9d2d6-4db2-4b81-846d-d69f6d814cfe")
 	)
 	(no_connect
+		(at -55.88 30.48)
+		(uuid "66185287-f461-4820-8df7-7531edffbde6")
+	)
+	(no_connect
 		(at 48.26 43.18)
 		(uuid "6e61c22a-5546-4183-a236-1f18ceec2c2f")
 	)
@@ -4586,6 +4594,10 @@
 	(no_connect
 		(at 274.32 147.32)
 		(uuid "8f0d8413-8713-4cf6-b573-5b524564c4ff")
+	)
+	(no_connect
+		(at -55.88 33.02)
+		(uuid "9b546d6f-fec8-46a6-b843-d6d16f92e4e1")
 	)
 	(no_connect
 		(at 48.26 53.34)
@@ -10948,6 +10960,16 @@
 		)
 		(uuid "393dfef0-ae89-4eab-9863-bbc051aa56c9")
 	)
+	(label "R_ARM"
+		(at -53.34 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39757241-4945-4969-ae55-5661d098d93d")
+	)
 	(label "SIGNAL_AMP"
 		(at 398.78 58.42 180)
 		(effects
@@ -11077,6 +11099,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae718839-b00c-406d-959c-5c4d1c7c701e")
+	)
+	(label "L_ARM"
+		(at -53.34 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b618fb23-77f0-4dcf-aa3c-d70edda174d0")
 	)
 	(label "INA_OUT"
 		(at 345.44 55.88 0)
@@ -11210,6 +11242,16 @@
 		)
 		(uuid "f4d38c01-1dc3-4691-a298-039f39a21c85")
 	)
+	(label "R_LEG"
+		(at -53.34 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f66dd929-c8f6-4466-ba41-26133824ffa2")
+	)
 	(label "VGND"
 		(at 167.64 165.1 0)
 		(effects
@@ -11219,39 +11261,6 @@
 			(justify left bottom)
 		)
 		(uuid "f68daa7e-65f7-41c9-b7ab-b398ec3e294f")
-	)
-	(hierarchical_label "RA"
-		(shape input)
-		(at -53.34 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2c6ade1a-31bc-48f9-9c42-e095cdbf3493")
-	)
-	(hierarchical_label "LA"
-		(shape input)
-		(at -53.34 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "46f4ea23-d33a-46f1-8886-5dce666107ec")
-	)
-	(hierarchical_label "RL"
-		(shape input)
-		(at -53.34 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a87c206-6a1f-419e-890d-2c0e17b46ae1")
 	)
 	(symbol
 		(lib_id "Device:R")
